@@ -349,7 +349,7 @@
 
 .cardiv {
   display: block;
-  padding: 11px;
+  padding: 11px 11px 40px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
