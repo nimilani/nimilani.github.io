@@ -386,8 +386,8 @@
 }
 
 .slide {
-  background-image: url('../images/IMG_0202.JPG');
-  background-position: 50% 51%;
+  background-image: url('../images/IMG_2829.JPG');
+  background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transform: translate(0px, 0px);
@@ -432,6 +432,8 @@
 .slider-2.rotate {
   -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
   transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .text-block {
@@ -575,44 +577,44 @@
 }
 
 .slide-2 {
-  background-image: url('../images/IMG_0205.JPG');
+  background-image: url('../images/IMG_2832.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-3 {
-  background-image: url('../images/IMG_0212.JPG');
+  background-image: url('../images/IMG_2830.JPG');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .slide-4 {
-  background-image: url('../images/IMG_0209.JPG');
+  background-image: url('../images/IMG_2833.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-5 {
-  background-image: url('../images/IMG_0213.JPG');
+  background-image: url('../images/IMG_2834.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-6 {
-  background-image: url('../images/IMG_0210.JPG');
+  background-image: url('../images/IMG_2836.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-7 {
-  background-image: url('../images/IMG_0207.JPG');
+  background-image: url('../images/IMG_2839.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-8 {
-  background-image: url('../images/IMG_0206.JPG');
+  background-image: url('../images/IMG_2841.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -637,10 +639,12 @@
 }
 
 .slide-10 {
-  background-image: url('../images/IMG_0199.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #258cd3;
+  background-image: -webkit-linear-gradient(270deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url('../images/IMG_0199.JPG');
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, .5), rgba(255, 0, 0, .5)), url('../images/IMG_0199.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .slide-11 {
@@ -782,73 +786,74 @@
 }
 
 .slide-34 {
-  background-image: url('../images/IMG_2531.JPG');
+  background-image: url('../images/IMG_2845.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-35 {
-  background-image: url('../images/IMG_2534.JPG');
+  background-image: url('../images/IMG_2846.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-36 {
-  background-image: url('../images/IMG_2536.JPG');
+  background-image: url('../images/IMG_2848.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-37 {
-  background-image: url('../images/IMG_2532.JPG');
+  background-image: url('../images/IMG_2849.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-38 {
-  background-image: url('../images/IMG_2535.JPG');
+  background-image: url('../images/IMG_2852.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-39 {
-  background-image: url('../images/IMG_2538.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/IMG_2854.JPG'), url('../images/IMG_2538.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: 320px, cover;
 }
 
 .slide-40 {
-  background-image: url('../images/IMG_2539.JPG');
+  background-image: url('../images/IMG_2855.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-41 {
-  background-image: url('../images/IMG_2540.JPG');
+  background-image: url('../images/IMG_2853.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-42 {
-  background-image: url('../images/IMG_2544.JPG');
-  background-position: 50% 50%;
+  background-image: url('../images/IMG_2857.JPG');
+  background-position: 100% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-1 {
-  background-image: url('../images/IMG_2545.JPG');
+  background-image: url('../images/IMG_2859.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-1-2 {
-  background-image: url('../images/IMG_2537.JPG');
+  background-image: url('../images/IMG_2858.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-43 {
-  background-image: url('../images/IMG_2170.JPG');
+  background-image: url('../images/IMG_2860.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -860,37 +865,37 @@
 }
 
 .slide-45 {
-  background-image: url('../images/IMG_2165.JPG');
+  background-image: url('../images/IMG_2863.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-46 {
-  background-image: url('../images/IMG_2168.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/IMG_2864.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
 }
 
 .slide-47 {
-  background-image: url('../images/IMG_2172.JPG');
+  background-image: url('../images/IMG_2868.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-48 {
-  background-image: url('../images/IMG_2173.JPG');
+  background-image: url('../images/IMG_2865.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-49 {
-  background-image: url('../images/IMG_2175.JPG');
+  background-image: url('../images/IMG_2869.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-50 {
-  background-image: url('../images/IMG_2176.JPG');
+  background-image: url('../images/IMG_2870.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -963,6 +968,7 @@
   background-image: url('../images/IMG_2190.JPG');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-62 {
@@ -1448,55 +1454,55 @@
 }
 
 .slide-136 {
-  background-image: url('../images/IMG_2376.JPG');
+  background-image: url('../images/IMG_2901.JPG');
   background-position: 50% 50%;
-  background-size: cover;
+  background-size: 320px;
 }
 
 .slide-137 {
-  background-image: url('../images/IMG_2378.JPG');
+  background-image: url('../images/IMG_2903.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-138 {
-  background-image: url('../images/IMG_2377.JPG');
+  background-image: url('../images/IMG_2902.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-139 {
-  background-image: url('../images/IMG_2379.JPG');
+  background-image: url('../images/IMG_2909.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-140 {
-  background-image: url('../images/IMG_2380.JPG');
+  background-image: url('../images/IMG_2910.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-141 {
-  background-image: url('../images/IMG_2381.JPG');
+  background-image: url('../images/IMG_2911.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-142 {
-  background-image: url('../images/IMG_2382.JPG');
+  background-image: url('../images/IMG_2913.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-143 {
-  background-image: url('../images/IMG_2383.JPG');
+  background-image: url('../images/IMG_2912.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .slide-144 {
-  background-image: url('../images/IMG_2385.JPG');
+  background-image: url('../images/IMG_2914.JPG');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1647,7 +1653,7 @@
 }
 
 .oddd.sunday {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .column-2 {
@@ -1781,6 +1787,353 @@
   padding-top: 40px;
   font-family: 'Droid Sans', sans-serif;
   text-align: center;
+}
+
+.slide-167 {
+  background-image: url('../images/IMG_2840.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide-1-3 {
+  background-image: url('../images/IMG_2843.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-168 {
+  background-image: url('../images/IMG_2873.JPG');
+  background-position: 0px 0px;
+  background-size: 240px;
+}
+
+.slide-169 {
+  background-image: url('../images/IMG_2877.JPG');
+  background-position: 50% 50%;
+  background-size: 240px;
+}
+
+.slide-1-4 {
+  background-image: url('../images/IMG_2866.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-1-5 {
+  background-image: url('../images/IMG_2867.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-170 {
+  background-image: url('../images/IMG_2755.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-171 {
+  background-image: url('../images/IMG_2756.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-172 {
+  background-image: url('../images/IMG_2758.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-173 {
+  background-image: url('../images/IMG_2757.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-174 {
+  background-image: url('../images/IMG_2762.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-175 {
+  background-image: url('../images/IMG_2763.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-176 {
+  background-image: url('../images/IMG_2765.JPG');
+  background-position: 50% 50%;
+  background-size: 240px;
+}
+
+.slide-177 {
+  background-image: url('../images/IMG_2755.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-178 {
+  background-image: url('../images/IMG_2764.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-179 {
+  background-image: url('../images/IMG_2766.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-180 {
+  background-image: url('../images/IMG_2924.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-181 {
+  background-image: url('../images/IMG_2925.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-182 {
+  background-image: url('../images/IMG_2926.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-183 {
+  background-image: url('../images/IMG_2929.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-184 {
+  background-image: url('../images/IMG_2930.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-185 {
+  background-image: url('../images/IMG_2767.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.text-span-3 {
+  color: #f30a0a;
+}
+
+.slide-186 {
+  background-image: url('../images/IMG_2713.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-187 {
+  background-image: url('../images/IMG_2714.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-188 {
+  background-image: url('../images/IMG_2715.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-189 {
+  background-image: url('../images/IMG_2718.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-190 {
+  background-image: url('../images/IMG_2719.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-191 {
+  background-image: url('../images/IMG_2720.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-192 {
+  background-image: url('../images/IMG_2722.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-193 {
+  background-image: url('../images/IMG_2725.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-194 {
+  background-image: url('../images/IMG_2768.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-195 {
+  background-image: url('../images/IMG_2770.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-196 {
+  background-image: url('../images/IMG_2771.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-197 {
+  background-image: url('../images/IMG_2774.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-198 {
+  background-image: url('../images/IMG_2773.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-199 {
+  background-image: url('../images/IMG_2775.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-200 {
+  background-image: url('../images/IMG_2776.JPG');
+  background-position: 50% 50%;
+  background-size: 240px;
+}
+
+.slide-201 {
+  background-image: url('../images/IMG_2727.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-202 {
+  background-image: url('../images/IMG_2728.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-203 {
+  background-image: url('../images/IMG_2729.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-204 {
+  background-image: url('../images/IMG_2730.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-205 {
+  background-image: url('../images/IMG_2731.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-206 {
+  background-image: url('../images/IMG_2733.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-207 {
+  background-image: url('../images/IMG_2734.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-208 {
+  background-image: url('../images/IMG_2738.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-209 {
+  background-image: url('../images/IMG_2737.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-210 {
+  background-image: url('../images/IMG_2684.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-211 {
+  background-image: url('../images/IMG_2685.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-212 {
+  background-image: url('../images/IMG_2687.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-213 {
+  background-image: url('../images/IMG_2686.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-214 {
+  background-image: url('../images/IMG_2688.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-215 {
+  background-image: url('../images/IMG_2689.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-216 {
+  background-image: url('../images/IMG_2691.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
+}
+
+.slide-217 {
+  background-image: url('../images/IMG_2692.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-218 {
+  background-image: url('../images/IMG_2693.JPG');
+  background-position: 50% 50%;
+  background-size: 240px;
+}
+
+.slide-1-6 {
+  background-image: url('../images/IMG_2694.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
+}
+
+.slide-1-7 {
+  background-image: url('../images/IMG_2695.JPG');
+  background-position: 50% 50%;
+  background-size: 320px;
 }
 
 @media (max-width: 991px) {
