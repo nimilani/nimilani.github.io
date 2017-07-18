@@ -164,7 +164,7 @@
 }
 
 .slide3 {
-  background-image: url('../images/nabeel-syed-2856-min.jpg');
+  background-image: url('../images/al-x-295965-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,9 +175,9 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 1px;
+  margin-top: 0px;
   margin-left: 0px;
-  padding-top: 316px;
+  padding-top: 181px;
   padding-left: 65px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2247,7 +2247,211 @@
   background-size: cover;
 }
 
+.slide-237 {
+  background-image: url('../images/IMG_3003.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-238 {
+  background-image: url('../images/IMG_3004.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-239 {
+  background-image: url('../images/IMG_3005.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-240 {
+  background-image: url('../images/IMG_3007.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-241 {
+  background-image: url('../images/IMG_3006.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-242 {
+  background-image: url('../images/IMG_3010.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-243 {
+  background-image: url('../images/IMG_3011.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-244 {
+  background-image: url('../images/IMG_3013.JPG');
+  background-position: 50% 0px;
+  background-size: cover;
+}
+
+.slide-245 {
+  background-image: url('../images/IMG_3097.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-246 {
+  background-image: url('../images/IMG_3099.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-247 {
+  background-image: url('../images/IMG_3098.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-248 {
+  background-image: url('../images/IMG_3101.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-249 {
+  background-image: url('../images/IMG_3102.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-250 {
+  background-image: url('../images/IMG_3103.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-251 {
+  background-image: url('../images/IMG_2951.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-252 {
+  background-image: url('../images/IMG_2952.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-253 {
+  background-image: url('../images/IMG_2953.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-254 {
+  background-image: url('../images/IMG_2955.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-255 {
+  background-image: url('../images/IMG_2957.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-256 {
+  background-image: url('../images/IMG_2958.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-257 {
+  background-image: url('../images/IMG_2959.JPG');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.slide-258 {
+  background-image: url('../images/IMG_2960.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-259 {
+  background-image: url('../images/IMG_2962.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-1-8 {
+  background-image: url('../images/IMG_2961.JPG'), url('../images/IMG_2964.JPG');
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+}
+
+.slide-1-9 {
+  background-image: url('../images/IMG_2963.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-260 {
+  background-image: url('../images/IMG_2992.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-261 {
+  background-image: url('../images/IMG_2993.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-262 {
+  background-image: url('../images/IMG_2994.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-263 {
+  background-image: url('../images/IMG_2997.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-264 {
+  background-image: url('../images/IMG_2995.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-265 {
+  background-image: url('../images/IMG_2999.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-266 {
+  background-image: url('../images/IMG_2998.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.slide-267 {
+  background-image: url('../images/IMG_3001.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 @media (max-width: 991px) {
+  .heading {
+    padding-left: 91px;
+  }
+  .heading3 {
+    padding-left: 20px;
+  }
   .text-block {
     display: block;
   }
@@ -2257,8 +2461,16 @@
 }
 
 @media (max-width: 767px) {
+  .heading {
+    padding-left: 77px;
+  }
   .heading2 {
+    padding-left: 77px;
     text-align: left;
+  }
+  .heading3 {
+    padding-right: 45px;
+    padding-left: 74px;
   }
   .slider-2 {
     display: block;
@@ -2279,10 +2491,14 @@
   .heading {
     margin-top: 60px;
     padding-top: 22px;
+    padding-left: 62px;
   }
   .heading2 {
-    padding-right: 30px;
-    padding-left: 35px;
+    padding-right: 56px;
+    padding-left: 65px;
+  }
+  .heading3 {
+    padding-right: 15px;
   }
   .slide {
     display: inline-block;
