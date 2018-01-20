@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  width: auto;
   height: 95vh;
   line-height: 18px;
 }
@@ -54,6 +55,7 @@
 }
 
 .nav-menu {
+  top: 8px;
   padding-top: 0px;
   padding-right: 15px;
   float: right;
@@ -78,11 +80,27 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #a4ad9c;
-  background-image: url('../images/tulen-travel-148550-min.jpg');
+  background-image: url('../images/ross-van-der-wal-219011-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
   text-shadow: 0 -1px 0 hsla(0, 0%, 100%, .25);
+}
+
+.slide1._1 {
+  background-image: url('../images/oscar-nilsson-288758-min.jpg');
+}
+
+.slide1._2 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/tommy-pequinot-329425-min.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('../images/tommy-pequinot-329425-min.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.slide1._3 {
+  background-image: url('../images/andras-vas-466730-min.jpg');
 }
 
 .special-edition-tag {
@@ -102,13 +120,15 @@
 }
 
 .heading {
+  position: relative;
+  top: 130px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-left: 0px;
-  padding: 53px 42px 1px 53px;
+  padding: 0px 42px 1px 53px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -118,15 +138,29 @@
   -ms-flex-align: center;
   align-items: center;
   font-family: Exo, sans-serif;
-  color: #fff;
+  color: #c99a23;
   font-size: 42px;
   font-weight: 200;
   text-align: left;
-  text-shadow: none;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .heading._2 {
+  top: 82px;
   color: #f2f2f2;
+}
+
+.heading._1 {
+  color: #fff;
+  text-shadow: 1px 1px 14px #000;
+}
+
+.heading._3 {
+  top: 61px;
+}
+
+.heading._3.second {
+  top: 230px;
 }
 
 .slide2 {
@@ -164,33 +198,45 @@
 }
 
 .slide3 {
-  background-image: url('../images/al-x-295965-min.jpg');
+  background-image: url('../images/jonathan-daniels-453915-min-1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .heading3 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  position: relative;
+  left: 89px;
+  display: block;
   margin-top: 0px;
+  margin-bottom: 10px;
   margin-left: 0px;
-  padding-top: 181px;
-  padding-left: 65px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  padding-top: 180px;
+  padding-left: 26px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   font-family: Exo, sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 42px;
   font-weight: 300;
+  text-align: left;
+}
+
+.heading3.second {
+  padding-top: 0px;
+  color: #c99a23;
+}
+
+.heading3._2 {
+  padding-top: 40px;
+  color: #c99a23;
+  line-height: 52px;
 }
 
 .container-2 {
@@ -854,9 +900,9 @@
 }
 
 .slide-43 {
-  background-image: url('../images/IMG_2860.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2860.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-44 {
@@ -905,12 +951,14 @@
   background-image: url('../images/IMG_2177.JPG');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-52 {
   background-image: url('../images/IMG_2179.JPG');
   background-position: 50% 50%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .slide-53 {
@@ -920,9 +968,9 @@
 }
 
 .slide-54 {
-  background-image: url('../images/IMG_2182.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2182.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, cover;
 }
 
 .slide-55 {
@@ -1051,9 +1099,9 @@
 }
 
 .slide-75 {
-  background-image: url('../images/IMG_2231.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2231.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, cover;
 }
 
 .slide-76 {
@@ -1094,9 +1142,9 @@
 }
 
 .slide-82 {
-  background-image: url('../images/IMG_2240.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2240.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, cover;
 }
 
 .slide-83 {
@@ -1167,9 +1215,9 @@
 }
 
 .slide-88 {
-  background-image: url('../images/IMG_2248.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2248.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-89 {
@@ -1425,9 +1473,9 @@
 }
 
 .slide-131 {
-  background-image: url('../images/IMG_2339.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2339.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-132 {
@@ -1509,9 +1557,9 @@
 }
 
 .slide-145 {
-  background-image: url('../images/IMG_2387.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2387.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-146 {
@@ -1605,9 +1653,9 @@
 }
 
 .slide-161 {
-  background-image: url('../images/IMG_2404.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2404.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-162 {
@@ -2020,9 +2068,9 @@
 }
 
 .slide-201 {
-  background-image: url('../images/IMG_2727.JPG');
-  background-position: 50% 50%;
-  background-size: 320px;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2727.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, 320px;
 }
 
 .slide-202 {
@@ -2140,9 +2188,9 @@
 }
 
 .slide-219 {
-  background-image: url('../images/IMG_2641.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2641.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-220 {
@@ -2194,9 +2242,9 @@
 }
 
 .slide-228 {
-  background-image: url('../images/IMG_2651.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2651.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, cover;
 }
 
 .slide-229 {
@@ -2332,9 +2380,9 @@
 }
 
 .slide-251 {
-  background-image: url('../images/IMG_2951.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2951.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover, cover;
 }
 
 .slide-252 {
@@ -2584,9 +2632,9 @@
 }
 
 .slide-286 {
-  background-image: url('../images/IMG_3105.JPG');
-  background-position: 0px 0px;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_3105.JPG');
+  background-position: 0px 0px, 0px 0px;
+  background-size: cover, cover;
 }
 
 .slide-287 {
@@ -2671,6 +2719,10 @@
   background-image: url('../images/IMG_3112.JPG');
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.image-14 {
+  max-width: 130%;
 }
 
 @media (max-width: 991px) {
