@@ -394,8 +394,16 @@
 }
 
 .cardiv {
-  display: block;
-  padding: 11px 11px 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 11px 0px 40px 11px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -429,6 +437,9 @@
   -ms-flex-line-pack: start;
   align-content: flex-start;
   font-family: Exo, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
 }
 
 .slide {
@@ -461,8 +472,8 @@
 
 .slider-2 {
   display: block;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 250px;
+  max-width: 250px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -481,6 +492,11 @@
   transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.slider-2.rot {
+  max-height: 250px;
+  max-width: 250px;
 }
 
 .text-block {
@@ -1183,17 +1199,37 @@
 }
 
 .text-block-4 {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 30px;
+  padding: 14px 0px;
   font-family: Exo, sans-serif;
+  font-size: 19px;
+  line-height: 25px;
   text-align: right;
 }
 
 .div-block-3 {
+  display: block;
   padding-top: 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
 }
 
 .text-block-5 {
+  position: static;
+  display: inline-block;
+  padding: 15px 0px;
   font-family: Exo, sans-serif;
   color: #2c74ad;
+  font-size: 19px;
+  line-height: 25px;
   font-weight: 700;
   text-align: left;
   text-decoration: none;
@@ -1968,9 +2004,9 @@
 }
 
 .slide-185 {
-  background-image: url('../images/IMG_2767.JPG');
-  background-position: 50% 50%;
-  background-size: 320px;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_2767.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, 320px;
 }
 
 .text-span-3 {
@@ -2494,9 +2530,9 @@
 }
 
 .slide-268 {
-  background-image: url('../images/IMG_3140.JPG');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: url('../images/sold-sign-cfea7eec9e45d1b3d20efc13f6e8ec83.png'), url('../images/IMG_3140.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: contain, cover;
 }
 
 .slide-269 {
@@ -2725,12 +2761,32 @@
   max-width: 130%;
 }
 
+.text-span-4 {
+  font-weight: 400;
+}
+
+.text-span-5 {
+  font-weight: 400;
+}
+
+.text-block-10 {
+  text-align: left;
+}
+
 @media (max-width: 991px) {
   .heading {
     padding-left: 91px;
   }
   .heading3 {
     padding-left: 20px;
+  }
+  .slider-2 {
+    max-height: 220px;
+    max-width: 220px;
+  }
+  .slider-2.rot {
+    max-height: 220px;
+    max-width: 220px;
   }
   .text-block {
     display: block;
