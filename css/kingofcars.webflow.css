@@ -472,6 +472,8 @@
 
 .slider-2 {
   display: block;
+  width: 250px;
+  height: 250px;
   max-height: 250px;
   max-width: 250px;
   -webkit-box-pack: center;
@@ -495,6 +497,8 @@
 }
 
 .slider-2.rot {
+  width: 250px;
+  height: 250px;
   max-height: 250px;
   max-width: 250px;
 }
@@ -2771,6 +2775,12 @@
 
 .text-block-10 {
   text-align: left;
+}
+
+.slide-295 {
+  background-image: url('../images/IMG_3401.JPG');
+  background-position: 0px 0px;
+  background-size: 320px;
 }
 
 @media (max-width: 991px) {
