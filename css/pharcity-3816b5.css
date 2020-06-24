@@ -909,6 +909,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #b9cec8;
 }
 
 .text-block-4 {
@@ -1167,6 +1168,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.image-10 {
+  color: rgba(187, 153, 204, 0.93);
 }
 
 @media screen and (max-width: 991px) {
