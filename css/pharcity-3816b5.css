@@ -1179,11 +1179,13 @@
     height: 550px;
     grid-column-gap: 15px;
   }
+
   .values-grid._1 {
     height: 200px;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
+
   .div-block._2 {
     height: 200px;
     -webkit-box-pack: justify;
@@ -1191,6 +1193,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
+
   .div-block._2._1 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1201,6 +1204,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .text-block {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1220,57 +1224,74 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .values-container {
     margin-top: 50px;
   }
+
   .hero-header-text {
     font-size: 55px;
     line-height: 55px;
   }
+
   .why-we-matter-header._2 {
     font-size: 34px;
   }
+
   .pricing-h1.faq-h2 {
     font-size: 32px;
   }
+
   .faq-answer {
     padding-left: 0px;
   }
+
   .contact-header.home {
     font-size: 56px;
   }
+
   .social-proof-section {
     height: 220vh;
   }
+
   .text-block-6 {
     width: 350px;
     font-size: 26px;
   }
+
   .container-3 {
     margin-top: 0px;
   }
+
   .nav-link-4 {
     border-radius: 0px;
     background-color: #063a3a;
   }
+
   .icon {
     color: #b9cec8;
   }
+
   .icon-2 {
     color: #b9cec8;
   }
+
   .menu-button-2 {
     color: #0b2626;
   }
+
   .menu-button-2.w--open {
     background-color: #0b2626;
   }
+
   .nav-menu-2 {
     background-color: #063a3a;
   }
+
   .menu-button-3 {
     background-color: #0b2626;
   }
+
   .nav-menu-3 {
     background-color: #063a3a;
   }
@@ -1281,6 +1302,7 @@
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .values-grid {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1294,75 +1316,94 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .values-grid._1 {
     height: 80%;
     margin-top: 50px;
   }
+
   .div-block {
     margin-bottom: 20px;
   }
+
   .div-block._2 {
     margin-bottom: 30px;
   }
+
   .div-block._2._1 {
     height: 100%;
     padding-top: 30px;
   }
+
   .values-container {
     height: 180vh;
     margin-top: 100px;
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .why-we-matter-header {
     margin-bottom: 20px;
     font-size: 28px;
   }
+
   .why-we-matter-header._2 {
     font-size: 28px;
     line-height: 28px;
   }
+
   .why-we-matter-container {
     height: 100vh;
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .process-section {
     display: none;
   }
+
   .faq-section {
     margin-top: 300px;
   }
+
   .pricing-h1 {
     font-size: 34px;
     line-height: 44px;
   }
+
   .contact-div {
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .nav-link-2 {
     background-color: #063a3a;
   }
+
   .social-proof-section {
     height: 270vh;
   }
+
   .container-3 {
     margin-top: 100px;
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .nav-link-4 {
     border-radius: 0px;
     background-color: #063a3a;
   }
+
   .grid-3 {
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .image-2 {
     padding-left: 11px;
   }
+
   .column {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1381,16 +1422,20 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
   .menu-button.w--open {
     background-color: #0b2626;
   }
+
   .nav-menu {
     background-color: #063a3a;
   }
+
   .image-8 {
     width: 75%;
     max-width: 100%;
   }
+
   .image-9 {
     width: 75%;
     max-width: 100%;
@@ -1404,40 +1449,50 @@
     -ms-flex: 1;
     flex: 1;
   }
+
   .hero-button {
     font-size: 14px;
   }
+
   .values-grid {
     height: 100%;
     margin-bottom: 199px;
   }
+
   .values-grid._1 {
     display: block;
     height: 70%;
     margin-bottom: 0px;
   }
+
   .div-block._2._1 {
     height: 200px;
     margin-top: 50px;
   }
+
   .values-container {
     display: block;
     height: 100%;
     margin-top: 300px;
   }
+
   .servies-section {
     display: none;
   }
+
   .hero-header-text {
     font-size: 40px;
     line-height: 40px;
   }
+
   .faq-section {
     margin-top: 300px;
   }
+
   .container.faq-container {
     width: 95%;
   }
+
   .contact-section {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1448,42 +1503,52 @@
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .link-2.home {
     font-size: 20px;
   }
+
   .contact-header.home {
     font-size: 34px;
   }
+
   .contact-div {
     width: 95vw;
   }
+
   .contact-container {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
   }
+
   .nav-link-2 {
     background-color: #063a3a;
   }
+
   .social-proof-section {
     height: 320vh;
   }
+
   .container-3 {
     height: 100vh;
     margin-top: 500px;
     margin-bottom: 0px;
   }
+
   .nav-link-4 {
     border-radius: 0px;
     background-color: #063a3a;
   }
+
   .text-block-8 {
     padding-top: 0px;
     padding-bottom: 35px;
     font-size: 16px;
     line-height: 16px;
   }
+
   .grid-3 {
     justify-items: start;
     grid-column-gap: 50px;
@@ -1492,28 +1557,36 @@
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
+
   .div-block-11 {
     margin-top: 75px;
   }
+
   .text-block-9 {
     display: none;
     font-size: 14px;
   }
+
   .image-2 {
     padding-left: 10px;
   }
+
   .image-4 {
     max-width: 80%;
   }
+
   .image-5 {
     max-width: 80%;
   }
+
   .menu-button {
     background-color: #0b2626;
   }
+
   .menu-button.w--open {
     background-color: #0b2626;
   }
+
   .image-9 {
     padding-top: 34px;
     padding-bottom: 35px;
